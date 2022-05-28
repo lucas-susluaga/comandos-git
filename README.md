@@ -50,3 +50,13 @@ git branch -D "nome do branch que deseja remover" => comando utilizado para remo
 
 git pull origin master => comando puxa todas as alterações do repositório remoto para o repositório local
 (indicado fazer esse procedimento sempre antes de realizar um push, para a atualização correta dos repositórios)
+
+Você pode clonar um repositório para, trbalhar naquele projeto, clonar porque você gostou do projeto e fazer alterações localmente, etc, e para realizar esse procedimento existem alguns passos que devem ser seguidos:
+
+1º: você precisa criar uma pasta que receberá este repositório.
+2º: Após criar a pasta, você deve copiar a URL do repositório que deseja clonar.
+3º: Você deve abrir seu Git Bash navegar até esta pasta criada e digitar o seguinte comando:
+
+git clone + URL (EX:=> git clone https://github.com/lucas-susluaga/comandos-git)
+
+Este comando baixa todos os arquivos deste repositório para que você possa "brincar" com as informações dele.
