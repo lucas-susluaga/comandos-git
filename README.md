@@ -47,3 +47,6 @@ git revert --no-edit + o código do commit => comando que reverte um commit que 
 git push origin :"nome do branch que deseja remover" => Comando utilizado para remover um branch do remoto (GitHub)
 
 git branch -D "nome do branch que deseja remover" => comando utilizado para remover um branch do sistema local
+
+git pull origin master => comando puxa todas as alterações do repositório remoto para o repositório local
+(indicado fazer esse procedimento sempre antes de realizar um push, para a atualização correta dos repositórios)
