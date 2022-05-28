@@ -43,3 +43,7 @@ Para ignorar uma pasta EX:
 nome da pasta/* //indica que todos os arquivos daquela pasta serão ignorados.
 
 git revert --no-edit + o código do commit => comando que reverte um commit que foi realizado com erros, revertendo os problemas (sem perder o commit errado, para que possa ser ajustado posteriormente)
+
+git push origin :"nome do branch que deseja remover" => Comando utilizado para remover um branch do remoto (GitHub)
+
+git branch -D "nome do branch que deseja remover" => comando utilizado para remover um branch do sistema local
