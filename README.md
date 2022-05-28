@@ -41,3 +41,5 @@ Para tal dentro do arquivo .gitignore deve ser escrita qual extensão será igno
 Para ignorar uma pasta EX:
 
 nome da pasta/* //indica que todos os arquivos daquela pasta serão ignorados.
+
+git revert --no-edit + o código do commit => comando que reverte um commit que foi realizado com erros, revertendo os problemas (sem perder o commit errado, para que possa ser ajustado posteriormente)
