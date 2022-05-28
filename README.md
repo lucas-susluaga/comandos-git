@@ -25,3 +25,19 @@ ssh-keygen -t rsa -b 4096 -C "meu e-mail do git" = > comando que cria uma chave 
 git remote add origin "url do repositório" => comando que adiciona ao repositório local o repositório remoto
 
 git push -u origin master => comando que envia os dados salvos no git localmente para o git remoto (github nesse caso)
+
+Ao criar um arquivo chamado ".gitignore", você pode adicionar todos os arquivos que devem ser ignorados no commit e estes ficarão dentro do .gitignore;
+
+Para adicionar um arquivo dentro do .gitignore basta escrever o nome do arquvio dentro do .gitignore EX:
+
+README.md //dentro do aquvio .gitignore
+
+Também é possível definir arquivos que serão ignorados por extensão e até mesmo pastas que podem ser ignoradas. 
+Para tal dentro do arquivo .gitignore deve ser escrita qual extensão será ignorada EX:
+
+*.txt //indica que todos os arquivos de texto devem ser ignorados
+*.html //indica que todos os arquivos html devem ser ignorados
+
+Para ignorar uma pasta EX:
+
+nome da pasta/* //indica que todos os arquivos daquela pasta serão ignorados.
