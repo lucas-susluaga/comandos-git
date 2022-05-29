@@ -51,7 +51,7 @@ git branch -D "nome do branch que deseja remover" => comando utilizado para remo
 git pull origin master => comando puxa todas as alterações do repositório remoto para o repositório local
 (indicado fazer esse procedimento sempre antes de realizar um push, para a atualização correta dos repositórios)
 
-Você pode clonar um repositório para, trbalhar naquele projeto, clonar porque você gostou do projeto e fazer alterações localmente, etc, e para realizar esse procedimento existem alguns passos que devem ser seguidos:
+==> Para clonar um repositório existem alguns passos que devem ser seguidos:
 
 1º: você precisa criar uma pasta que receberá este repositório.
 2º: Após criar a pasta, você deve copiar a URL do repositório que deseja clonar.
@@ -60,3 +60,15 @@ Você pode clonar um repositório para, trbalhar naquele projeto, clonar porque 
 git clone + URL (EX:=> git clone https://github.com/lucas-susluaga/comandos-git)
 
 Este comando baixa todos os arquivos deste repositório para que você possa "brincar" com as informações dele.
+
+==> Como realizer o procedimento de Fork e Pull Request (basicamente):
+
+Após clonar você pode trabalhar naquele projeto, fazer alterações nele e etc. No entanto, você também pode adicionar este repositório em seu perfil do GitHub para realizar a clonagem dele. 
+ 
+Para tal, você deve acessar o repositório que deseja trabalhar (caso ele não seja seu, e não tenham lhe dado permissão do mesmo), e clicar em um ícone no GitHub que se chama "Fork" localizada no canto superior direito (imagens/fork.png)
+
+Após realize o processo de clonagem, acesse a pasta clonada (cd + "nome da pasta clonada") faças as alteraçoes que achar pertinente logo faça o commit e um push para dentro do repositório "forkado".
+
+Após acesse o repositório remoto "forkado" e clique no campo "Pull Request" e em seguida clique em "New Pull Request"(imagens/pull-request.png), e então compare o "base repository" com o "head repository" e clique em "Create New Pull Request" (O "head" deve ser semore o seu repositório "forkado" (imagens/base-head.png))
+
+Após clicar em "Create New Pull Request" você irá explicar o que foi feito no repositório para que o dono possa aprovar a alteração para que faça parte de seu projeto (explicacao.png)
