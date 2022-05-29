@@ -71,4 +71,4 @@ Após realize o processo de clonagem, acesse a pasta clonada (cd + "nome da past
 
 Após acesse o repositório remoto "forkado" e clique no campo "Pull Request" e em seguida clique em "New Pull Request"(imagens/pull-request.png), e então compare o "base repository" com o "head repository" e clique em "Create New Pull Request" (O "head" deve ser semore o seu repositório "forkado" (imagens/base-head.png))
 
-Após clicar em "Create New Pull Request" você irá explicar o que foi feito no repositório para que o dono possa aprovar a alteração para que faça parte de seu projeto (explicacao.png)
+Após clicar em "Create New Pull Request" você irá explicar o que foi feito no repositório para que o dono possa aprovar a alteração para que faça parte de seu projeto (imagens/explicacao.png)
